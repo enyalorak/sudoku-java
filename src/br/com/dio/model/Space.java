@@ -1,5 +1,12 @@
 package br.com.dio.model;
 
+
+//Space vai representar o espaço unico no tabuleiro
+//cada quadradinho tem
+//expected - o numero que deveria estar nele (correto)
+//actual - numero que o jogador colocou ali (pode ser nulo ou diferente do esperado)
+//fixed - se esse quadradinho já vem preenchido (não pode mudar) ou se o jogador pode editar.
+
 public class Space {
     private Integer actual;
     private final int expected;
